@@ -6,10 +6,10 @@ logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text("こんにちは！ボットが起動しました。")
+    await update.message.reply_text("Hello! The bot has started.")
 
 def main() -> None:
-    application = Application.builder().token("もへじ財団").build()
+    application = Application.builder().token("Moheji Foundation").build()
 
     application.add_handler(CommandHandler("start", start))
 
