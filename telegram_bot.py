@@ -9,7 +9,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text("こんにちは！ボットが起動しました。")
 
 def main() -> None:
-    application = Application.builder().token("YOUR_BOT_TOKEN").build()
+    application = Application.builder().token("7834587549:AAGkA0zkgNxuQJfjOHgSARcTDVkc14BcVrA").build()
 
     application.add_handler(CommandHandler("start", start))
 
