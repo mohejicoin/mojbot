@@ -1,1 +1,1 @@
-# mojbot
+You feel that the “Moheji Bot” has no value and that it should be managed by the community instead. You don’t want the bot to control or operate things automatically because it takes away from your own agency and the natural flow of the community. You believe that human management or community-driven rules would be better, so that the bot only acts under clear, agreed-upon guidelines—or maybe not operate at all unless directly managed by people.
